@@ -1173,7 +1173,7 @@ static class Program {
     }
 
     static Form Build() {
-        string title = L.T("Чистка контекстного меню", "Context Menu Cleaner");
+        const string title = "ContextMenuCleaner";
         string hint = L.T("Снимите галочки с ненужных пунктов и нажмите «Применить» — Проводник перезапустится.",
                           "Uncheck the items you don't need and press “Apply” — Explorer will restart.");
         bool variable = new System.Drawing.Text.InstalledFontCollection().Families.Any(f => f.Name == "Segoe UI Variable Text");
